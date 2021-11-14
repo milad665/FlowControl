@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Milad.Utils.FlowControl.AspNetCore.Extensions</AssemblyName>
+    <RootNamespace>Milad.Utils.FlowControl.AspNetCore.Extensions</RootNamespace>
+    <Authors>Milad Soghrati</Authors>
+    <Product>Milad.Utils.FlowControl.AspNetCore.Extensions</Product>
+    <Description>Enables smooth integration with ASP.NET Core to produce IActionResults</Description>
+    <RepositoryUrl>https://github.com/milad665/FlowControl</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Copyright>Copyright 2021</Copyright>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/milad665/FlowControl</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Milad.Utils.FlowControl\Milad.Utils.FlowControl.csproj" />
+  </ItemGroup>
+
+</Project>

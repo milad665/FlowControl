@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/milad665/FlowControl</projectUrl>
+    <iconUrl>https://github.com/milad665/FlowControl/blob/main/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FlowControl (Milad.Utils.FlowControl) is a .NET Standard library to help controlling business rule failures in multi-layered applications when the developer wants to avoid throwing exceptions to control the flow.</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Flow Control throw exception multilayer multi-layer logic</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
