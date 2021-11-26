@@ -9,9 +9,9 @@ Handling this type of control flow, gets tricky in layered applications where bu
 
 A bad practice or even an Anti-pattern in developing layered software applications is to throw exceptions when such business rules fail. There are many drawbacks with this approach that I don't want to get into but one of the main ones is the performance overhead of throwing exceptions and the fact that business rule failures are simply not exceptions that happen once in a while!
 
-A reason why this approach is liked by many developers, even myself to be honest, is the convenience of breaking the flow no matter where in the code and in which layer. You simply throw and exception and then use a middleware or a try-catch block high above all the layers to handle the exceptions, filter them based on their type, do proper logging and generate the proper response for the user.
+A reason why this approach is liked by many developers, even myself to be honest, is the convenience of breaking the flow no matter where in the code and in which layer you are. You simply throw an exception and then use a middleware or a try-catch block high above all the layers to handle the exceptions, filter them based on their type, do proper logging and generate the proper response for the user.
 
-Not throwing exceptions means handling this in every method call and control the propagation of method call results from deep layers to the user.
+Not throwing exceptions means handling this in every method call and control the propagation of method call results from lower layers up to the user.
 
 FlowControl is a simple utility to help with this :)
 
